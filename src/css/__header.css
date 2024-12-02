@@ -1,0 +1,134 @@
+.header {
+    min-height: 650px;
+    background: url(../img/main.jpg) center center/cover no-repeat;
+    padding-top: 21px;
+    color: var(--color, rgb(246, 246, 246));
+}
+
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header__logo {
+    max-width: 251px;
+}
+
+.header__official {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    p {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 12px;
+    }
+
+    span {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 29px;
+    }
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    .button {
+        margin-top: 4px;
+        width: 153px;
+        height: 32px;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+
+.header__phone {
+    color: var(--color, rgb(246, 246, 246));
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.promo_wrapper {
+    margin-top: 90px;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.promo__header {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.promo__subheader {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.promo_item {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+
+    .promo__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 136px;
+
+        .promo__img {
+            max-width: 45px;
+            height: 45px;
+        }
+
+        .promo__text {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 14px;
+            text-align: center;
+        }
+    }
+}
+
+.promo__consultation {
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .button {
+        width: 303px;
+        height: 54px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .header__phone {
+        margin-top: 8px;
+
+        span {
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 500px;
+            line-height: 25px;
+            text-decoration-line: underline;
+        }
+    }
+}
