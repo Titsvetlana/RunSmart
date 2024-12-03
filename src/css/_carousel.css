@@ -1,0 +1,4 @@
+.carousel {
+    background: var(--color, rgb(246, 246, 246));
+    padding: 81px 0;
+}
