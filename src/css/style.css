@@ -1,5 +1,7 @@
-@import "__basic_setting.css";
-@import "__header.css";
-@import "__media-header.css";
-@import "__advantages.css";
-@import "__media_advantages.css";
+@import "_basic_setting.css";
+@import "_header.css";
+@import "_media-header.css";
+@import "_advantages.css";
+@import "_media_advantages.css";
+@import "_consultation.css";
+@import "_form.css";
