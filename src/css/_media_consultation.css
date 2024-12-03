@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+    .consultation {
+        background: url(../img/consultation_media.jpg) center center/cover no-repeat;
+        padding: 3%;
+    }
+
+    .consultation__promo {
+
+        .consultation__title {
+            font-size: 32px;
+            line-height: 48px;
+        }
+
+        span {
+            font-size: 20px;
+            line-height: 24px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .consultation__promo {
+
+        .consultation__title {
+            font-size: 24px;
+            line-height: 38px;
+        }
+
+        span {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .consultation__promo {
+
+        .consultation__title {
+            font-size: 94%;
+            line-height: 26px;
+        }
+
+        span {
+            font-size: 80%;
+            line-height: 18px;
+        }
+
+    }
+}

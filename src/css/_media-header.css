@@ -1,6 +1,7 @@
 @media screen and (max-width: 1200px) {
     .header {
         background: url(../img/main_media.jpg) center center/cover no-repeat;
+        padding: 3%;
     }
 }
 
