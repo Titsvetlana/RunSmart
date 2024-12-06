@@ -1,0 +1,27 @@
+@media screen and (max-width: 1200px) {
+    .carousel {
+        padding: 3%;
+
+        .slick-prev {
+            left: -3%;
+        }
+
+        .slick-next {
+            right: -7%;
+        }
+    }
+}
+
+/* @media screen and (max-width: 992px) {
+    .slick-dots {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+
+        button {
+            height: 50%;
+            border-radius: 15%;
+            padding-left: 50px;
+        }
+    }
+} */

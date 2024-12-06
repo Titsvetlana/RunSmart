@@ -1,4 +1,46 @@
 .carousel {
+    position: relative;
     background: var(--color, rgb(246, 246, 246));
     padding: 81px 0;
+
+    /* .slick-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%);
+        left: -66px;
+        background: url(../icons/left.svg) center center/cover no-repeat;
+        width: 31px;
+        height: 50px;
+    }
+
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%);
+        right: -66px;
+        background: url(../icons/right.svg) center center/cover no-repeat;
+        width: 31px;
+        height: 50px;
+    } */
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateX(-50%);
+        left: -66px;
+        background: url(../icons/left.svg) center center/cover no-repeat;
+        width: 31px;
+        height: 50px;
+    }
+
+    .slick-next {
+        right: -80px;
+        left: auto;
+        background: url(../icons/right.svg) center center/cover no-repeat;
+    }
+}
+
+.carousel__inner {
+    max-width: 750px;
+    margin: 0 auto;
 }
