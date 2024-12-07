@@ -146,6 +146,10 @@ hr {
     width: 135px;
     height: 44px;
     font-size: 14px;
+
+    &:hover {
+        box-shadow: 3px 3px 20px rgb(107, 107, 107);
+    }
 }
 
 .catalog-item__wrapper {
