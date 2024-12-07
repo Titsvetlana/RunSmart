@@ -91,7 +91,7 @@
 
 .catalog-item__descr {
     margin-top: 16px;
-    font-size: 14px;
+    font-size: 11px;
     font-weight: 300;
     line-height: 22px;
     text-align: center;
@@ -168,7 +168,7 @@ hr {
 .catalog-item__list {
     position: relative;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 15px;
     transform: translateX(0%);
     padding-right: 20px;
     transition: .5s all;
