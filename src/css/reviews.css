@@ -1,0 +1,54 @@
+.reviews {
+    background: var(--color, rgb(246, 246, 246));
+}
+
+.reviews__title {
+    color: rgb(13, 13, 13);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reviews__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 29px 15px 29px;
+}
+
+.reviews__item {
+    margin-top: 60px;
+    display: flex;
+}
+
+.reviews__people {
+    margin-right: 60px;
+    max-width: 169px;
+    max-height: 169px;
+}
+
+.reviews__name {
+    color: rgb(13, 13, 13);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.reviews__marathon {
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.reviews__desc,
+.reviews__conclusion {
+    padding-top: 10px;
+    color: rgb(13, 13, 13);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}

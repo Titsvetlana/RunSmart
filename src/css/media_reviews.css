@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px) {
+    .reviews {
+        padding: 3%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .reviews__title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .reviews__item {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reviews__descr {
+        margin-top: 25px;
+    }
+}
