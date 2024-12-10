@@ -142,7 +142,7 @@ hr {
     padding-top: 2px;
 }
 
-.catalog-item__btn {
+.catalog-item__btn button_mini {
     width: 135px;
     height: 44px;
     font-size: 14px;

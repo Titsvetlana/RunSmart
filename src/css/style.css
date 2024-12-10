@@ -13,4 +13,6 @@
 @import 'reviews.css';
 @import 'media_reviews.css';
 @import 'footer.css';
-@import 'media_footer.css'
+@import 'media_footer.css';
+@import 'modal_windows.css';
+@import 'media_modal_windows.css';

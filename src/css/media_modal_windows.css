@@ -1,0 +1,10 @@
+@media screen and (max-width: 580px) {
+    .modal {
+        width: 75%;
+        padding: 20px 3px;
+    }
+
+    .feed-form {
+        width: 100%;
+    }
+}
