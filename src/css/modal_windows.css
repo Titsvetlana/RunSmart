@@ -20,6 +20,15 @@
     text-align: center;
 }
 
+input.error {
+    border: 1px solid rgb(199, 1, 1);
+}
+
+.error {
+    margin: 3% 0;
+    text-align: center;
+}
+
 .modal__close {
     position: absolute;
     top: 0;

@@ -1,7 +1,6 @@
 .consultation {
     background: url(../img/consultation.jpg) center center/cover no-repeat;
     padding: 100px 0 92px 0;
-    max-height: 680px;
     color: var(--color, rgb(246, 246, 246));
 }
 
