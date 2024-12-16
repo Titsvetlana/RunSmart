@@ -105,4 +105,38 @@ $(document).ready(function () {
     validateForms('#consultation-form');
     validateForms('#consultation form');
     validateForms('#order form');
+
+    // маска для form
+    $('input[name=phone]').mask("(999) 999-9999");
+
+    // scroll / pageup
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 1200) {
+            $('.pageup').fadeIn();
+        } else {
+            $('.pageup').fadeOut();
+        }
+    });
+
+    $("a").on('click', function (event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            let hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 400, function () {
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+            });
+        } // End if
+    });
 });
